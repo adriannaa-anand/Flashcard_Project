@@ -4,19 +4,7 @@ A modern React.js application to help beginners learn Japanese **Katakana** usin
 
 ---
 
-## 🔧 Project Structure
-/components
-├── Home.jsx # Flashcards display
-├── Quiz.jsx # Timed quiz with score
-├── Navbar.jsx # Navigation bar
-├── Login.jsx # User login page
-├── Register.jsx # User registration page
-├── api.js # Katakana data or quiz logic
-
-App.jsx # Routing between components
-App.css # Main styling
-index.css # Global styles
-main.jsx # React app entry point
+<pre> ```text /components ├── Home.jsx # Flashcards display ├── Quiz.jsx # Timed quiz with score ├── Navbar.jsx # Navigation bar ├── Login.jsx # User login page ├── Register.jsx # User registration page ├── api.js # Katakana data or quiz logic App.jsx # Routing between components App.css # Main styling index.css # Global styles main.jsx # React app entry point ``` </pre>
 
 
 ---
