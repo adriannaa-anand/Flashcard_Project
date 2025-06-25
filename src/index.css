@@ -1,0 +1,281 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+nav button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.flashcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.flashcard:hover {
+  transform: scale(1.05);
+}
+
+.flashcard p {
+  font-size: 20px;
+  color: #555;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.quiz-container {
+  width: 350px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-container p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.quiz-container button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #28a745;
+  border-radius: 5px;
+}
+
+.quiz-container button:hover {
+  background-color: #218838;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.nav-buttons button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  background-color: white;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-buttons button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.timer {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.flashcard-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.flashcard {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  transition: transform 0.3s ease;
+  margin: auto;
+}
+
+.flashcard:hover {
+  transform: scale(1.05);
+}
+
+.flashcard p {
+  font-size: 20px;
+  color: #555;
+}
+
+.extra-info {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.extra-info p {
+  font-size: 16px;
+  color: #333;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.dashboard-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.dashboard-container button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-container button:hover {
+  background-color: #0056b3;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.center-container h2, .center-container h1 {
+  margin-bottom: 20px;
+}
+
+.center-container form, .center-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-container input, .center-container button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.center-container input {
+  width: 200px;
+}
+
+.center-container button:hover {
+  background-color: #0056b3;
+}
